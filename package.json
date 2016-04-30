@@ -1,16 +1,26 @@
 {
-  "name": "Chat",
-  "version": "0.0.1",
-  "description": "Chat",
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Basic chat in Node",
+  "main": "index.js",
   "dependencies": {
+    "jQuery": "^1.7.4",
     "socket.io": "latest",
     "express": "latest",
     "jade": "latest"
   },
-  "author": "Sean Bowen-Williams",
-  "engines": {
-    "node": "4.1.1"
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbowenwilliams/node_chat.git"
+  },
+  "author": "Sean Bowen-Williams",
   "license": "MIT",
-  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/sbowenwilliams/node_chat/issues"
+  },
+  "homepage": "https://github.com/sbowenwilliams/node_chat#readme"
 }
