@@ -1,0 +1,16 @@
+{
+  "name": "Chat",
+  "version": "0.0.1",
+  "description": "Chat",
+  "dependencies": {
+    "socket.io": "latest",
+    "express": "latest",
+    "jade": "latest"
+  },
+  "author": "Sean Bowen-Williams",
+  "engines": {
+    "node": "4.1.1"
+  },
+  "license": "MIT",
+  "main": "index.js",
+}
